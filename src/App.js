@@ -1,7 +1,7 @@
 import React from 'react';
 import User from './components/user/user-component';
 import Post from './components/post/post-components';
-
+import './App.css';
 
 const App = (props) => {
   return (
