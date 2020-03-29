@@ -19,3 +19,5 @@ const Post = ({ postId }) => {
     );
 
 }
+
+export default Post;
