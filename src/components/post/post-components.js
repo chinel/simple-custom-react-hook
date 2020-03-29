@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Card from '../card/card-component';
+import useFetch from '../../effects/use-fetch.effect';
 
 const Post = ({ postId }) => {
-    const post = [];
+    const post = useFetch(`https://jsonplaceholder.typicode.com/posts?id=${postId}`);
 
     return (
         <Card>
